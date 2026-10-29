@@ -1,0 +1,5 @@
+sample_id,seq_len_bp,pos83_codon,pos83_aa,pos83_mutation,pos87_codon,pos87_aa,pos87_mutation,clinical_phenotype
+ISOLATE_01_WildType_Sensitive,288,TCA,S,WT,GAC,D,WT,SENSITIVE (Susceptible)
+ISOLATE_02_Resistant_S83L,289,TTT,F,S83F,TGA,*,D87*,"RESISTANT (S83F, D87*)"
+ISOLATE_03_DoubleMutant_Resistant,289,TTT,F,S83F,TAA,*,D87*,"RESISTANT (S83F, D87*)"
+ISOLATE_04_Truncated_Fail,62,---,TRUNCATED,QC_FAIL_TOO_SHORT,---,TRUNCATED,QC_FAIL_TOO_SHORT,INCONCLUSIVE (Sequence Truncated)
